@@ -1,0 +1,42 @@
+body{
+    width:100vw;
+    height:100vh;
+    overflow:hidden;
+    display:flex;
+    flex-wrap:wrap;
+}
+#container{
+    width:40%;
+    height:80%;
+    border:0px solid black;
+    box-sizing:content-box;
+    display:flex;
+    flex-wrap:wrap;
+    background-color:rgb(73, 205, 209);
+    margin-right:20px;
+}
+#ccontainer{
+    width:40%;
+    height:80%;
+    border:0px solid black;
+    box-sizing:content-box;
+    display:flex;
+    flex-wrap:wrap;
+    background-color:rgb(73, 205, 209);
+}
+.box{
+    border:1px solid black;
+    box-sizing:border-box;
+    
+    
+}
+
+.rules{
+    display:block;
+    background-color:#aaa;
+    width:50%;
+    margin:auto;
+    overflow-x:hidden;
+    padding:10px;
+   
+}
